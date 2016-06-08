@@ -2,7 +2,7 @@
 A blank slate
 ### A setup for making games with JavaScript.
 
-## <b>How it Works</b>
+## How it Works
 
 #### When the games starts:
 1. The <b>index.html</b> file links <b>ALL</b> libraries (including Engine; JSGMF)
@@ -16,7 +16,7 @@ A blank slate
 2. The <code>game_draw()</code> function calls the <code>game_update()</code> function first
 3. Then the drawing code is executed.
 
-## <b>Some Tips</b>
+## Some Tips
 * Try to keep all event code in its folder but in different scripts,
   for example if you have a function <code>updatePlayer()</code> inside <code>game_update()</code>
   put it in its own script <b>UpdatePlayer.js</b> & Add it to the linked scripts in <b>index.html</b>
@@ -29,7 +29,7 @@ A blank slate
 * Consider also using [Electron](http://electron.atom.io/) if you want file system access, windows deployment & more freedom at the expense of having no web deployment.
 
 
-## <b>Some Annoying Limitations</b>
+## Some Annoying Limitations
 Unfortunately due to the nature of JavaScript and web development there is some stuff you cant do:
 * You have absolutely no access to the file system!
 * (Similar to above) You can only load JS, Images & Sounds.
@@ -40,6 +40,6 @@ Unfortunately due to the nature of JavaScript and web development there is some 
 its recommended that you just adhere to them in order to make your game more accessible.</b>
 
 
-## <b>Looking to the future!</b>
+## Looking to the future!
 In the future, possibly I will be making a new engine built on web-gl (which would allow for shaders)<br />
 Another alternative to this engine worth checking out (but for 3d games) is Three.js.
