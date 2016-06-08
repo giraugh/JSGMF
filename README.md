@@ -34,7 +34,7 @@ Unfortunately due to the nature of JavaScript and web development there is some 
 * You have absolutely no access to the file system!
 * (Similar to above) You can only load JS, Images & Sounds.
 * Tainted canvas's cannot be saved.
-* no infinite while loops, they prevent animation frames (which JSGMF relies on) and makes your game hang.
+* no infinite while loops, they prevent animation frames (which JSGMF relies on) and make your game hang.
 
 <b>Note: These are sweeping terms, and may only apply to some browsers, but as they apply to some
 its recommended that you just adhere to them in order to make your game more accessible.</b>
