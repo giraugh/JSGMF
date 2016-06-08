@@ -1,4 +1,4 @@
-# Blank-JSGMF-Game
+# JSGMF
 A blank slate
 ### A setup for making games with JavaScript.
 
