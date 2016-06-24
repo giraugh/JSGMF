@@ -29,6 +29,13 @@ A blank slate
 * Consider also using [Electron](http://electron.atom.io/) if you want file system access, windows deployment & more freedom at the expense of having no web deployment.
 
 
+## Other Features
+* A sprite & image system, check out <b>lib/SpriteController.js</b> for that.<br>
+  It basically lets you load sprites into <b>obj/Sprites.js</b> and use them without
+  much<br>configuration.
+* An input system, in <b>lib/Inputs.js</b> similiar to the sprite system, you use  
+  <b>obj/Inputs.js</b> to define inputs and then the library to access & parse it.
+
 ## Some Annoying Limitations
 Unfortunately due to the nature of JavaScript and web development there is some stuff you cant do:
 * You have absolutely no access to the file system!
