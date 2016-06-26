@@ -1,7 +1,7 @@
 # JSGMF
 A blank slate
 ### A setup for making games with JavaScript.
-
+<i><b>and a bunch of other usefull crap which you can use on its own.</b></i>
 ## How it Works
 
 #### When the games starts:
@@ -24,9 +24,10 @@ A blank slate
 * Put files that are only relative to your game, but instantiated or static inside a <b>header</b>
   folder (which you have to create)
 * Put external libraries or scripts that could be used in other games inside the <b>lib</b> folder.
-* Decide before making your game whether you will support old versions of ECMAscript. (i.e do you use lets)
-* Decide beforehand on whether you will insert semicolons, there is a good video by funfunfunction on this.
+* Decide before making your game whether you will support old versions of ECMAscript. (i.e do you use <code>let</code>)
+* Decide beforehand on whether you will insert semicolons, [there is a good video by funfunfunction](https://www.youtube.com/watch?v=Qlr-FGbhKaI) on this.
 * Consider also using [Electron](http://electron.atom.io/) if you want file system access, windows deployment & more freedom at the expense of having no web deployment.
+* If you have any problems/questions contact me [here](mailto:sheeplovedemocracy@gmail.com)
 
 
 ## Other Features
@@ -35,18 +36,20 @@ A blank slate
   much<br>configuration.
 * An input system, in <b>lib/Inputs.js</b> similiar to the sprite system, you use  
   <b>obj/Inputs.js</b> to define inputs and then the library to access & parse it.
+* Gamepad support! through a combination of <b>Imperium</b> & <b>Input</b>.
+* Cookie saving! Use <b>Oven</b> for that.
 
 ## Some Annoying Limitations
 Unfortunately due to the nature of JavaScript and web development there is some stuff you cant do:
-* You have absolutely no access to the file system!
-* (Similar to above) You can only load JS, Images & Sounds.
+* You have absolutely no access to the file system! (Except Cookies)
+* (Similar to above) You can only load Scripts, Images & Sounds.
 * Tainted canvas's cannot be saved.
 * no infinite while loops, they prevent animation frames (which JSGMF relies on) and make your game hang.
 
-<b>Note: These are sweeping terms, and may only apply to some browsers, but as they apply to some
+<b>Note: These are sweeping terms, and may only apply to some browsers, but as they apply to some,
 its recommended that you just adhere to them in order to make your game more accessible.</b>
 
 
 ## Looking to the future!
-In the future, possibly I will be making a new engine built on web-gl (which would allow for shaders)<br />
-Another alternative to this engine worth checking out (but for 3d games) is Three.js.
+In the future, possibly I will be making a new engine built on web-gl (which would allow for shaders and other cool stuff!)<br />
+If you are looking for shaders/3d now, check out [Three.js](http://Threejs.org).
