@@ -6,7 +6,8 @@ use 'n' to indicate natural size
 note: when using 'n' images may take up to 10 frames longer to load (usually 6), so dont use it in production.
 */
 
-spriteData = {
+//Copy the example and fill out with your values
+spriteData = {/*
   "example":{
     "src": "gph/Example.png",
     "width": 'n',
@@ -16,4 +17,5 @@ spriteData = {
     "frameOffset": [0,0],
     "center": [0,0]
   }
+*/
 }
