@@ -1,5 +1,0 @@
-function game_init() {
-
-
-
-}
